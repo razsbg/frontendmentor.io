@@ -10,3 +10,19 @@
   --font-size-body: 16px;
   --font-family-body: "Red Hat Display", sans-serif;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.attribution {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
