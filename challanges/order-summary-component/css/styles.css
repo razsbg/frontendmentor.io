@@ -1,0 +1,12 @@
+:root {
+  /* COLORS */
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-pale-blue: hsl(245, 75%, 52%);
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+
+  /* TYPOGRAPHY */
+  --font-size-body: 16px;
+  --font-family-body: "Red Hat Display", sans-serif;
+}
