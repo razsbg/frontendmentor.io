@@ -22,45 +22,50 @@
   <h1>Order summary component</h1>
 
   <main>
-    <div class="card">
-      <div class="card__header">
-        <figure>
-          <img src="./assets/pattern-background-mobile.svg" alt="Person enjoying the music offered by our platform">
-        </figure>
-      </div>
-      <div class="card__content">
-        <h2>
-          Order Summary
-        </h2>
-        <p>
-          You can now listen to millions of songs, audiobooks, and podcasts on any
-          device anywhere you like!
-        </p>
-        <div>
-          <div class="icon"></div>
-          <div>
-            <p class="plan-type">
-              Annual Plan
-            </p>
-            <p class="price">
-              $59.99/year
-            </p>
-          </div>
-          <a href="#">Change</a>
+    <div class="container">
+      <div class="card">
+
+        <div class="card-header">
+          <!-- should I use an pseudo-element instead? -->
         </div>
-      </div>
-      <div class="card__footer">
-        <button>Proceed to Payment</button>
-        <button>Cancel Order</button>
+        <div class="card-content">
+          <h2>
+            Order Summary
+          </h2>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+          <div class="plan">
+            <div class="icon">
+              <img src="./assets/icon-music.svg" alt="Musical note icon" />
+            </div>
+            <div>
+              <p>
+                Annual Plan
+              </p>
+              <p class="price">
+                $59.99/year
+              </p>
+            </div>
+            <a href="#">Change</a>
+          </div>
+          <div class="buttons">
+            <button class="button primary">Proceed to Payment</button>
+            <button class="button tertiary">Cancel Order</button>
+          </div>
+        </div>
       </div>
     </div>
   </main>
 
   <footer class="attribution">
     <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/srzvan">Răzvan Sbîngu</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+
     </p>
+    <p>Coded with <span role="img" aria-label="love" aria-hidden="false">💖</span> by <a
+        href="https://github.com/razsbg">Răzvan Sbîngu</a></p>
   </footer>
 </body>
 
